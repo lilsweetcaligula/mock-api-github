@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "github-api-mock",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "dotenv": "10.0.0",
