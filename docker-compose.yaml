@@ -7,6 +7,8 @@ services:
       - ./:/usr/src/app
     working_dir: /usr/src/app
     command: npm run watch
+    environment:
+      - PORT=9999
     ports:
       - 9999:9999
 
