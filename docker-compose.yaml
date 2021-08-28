@@ -9,6 +9,8 @@ services:
     command: npm run watch
     environment:
       - PORT=9999
+    env_file:
+      - .env
     ports:
       - 9999:9999
 
