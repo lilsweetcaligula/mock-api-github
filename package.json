@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "watch": "./node_modules/nodemon/bin/nodemon.js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
     "express": "4.17.1",
     "faker": "5.5.3",
     "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.12"
   }
 }
