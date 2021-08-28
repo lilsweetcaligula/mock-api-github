@@ -247,7 +247,14 @@ app.use((req, res) => {
 })
 
 
-const server = app.listen(9999, () => {
+const port = process.env.PORT
+
+if (null == port) {
+  throw new Error('missing PORT env var')
+}
+
+
+const server = app.listen(port, () => {
   console.log('GitHub API mock server is listening at %j',
     server.address())
 })
