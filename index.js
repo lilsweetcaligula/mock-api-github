@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 const Express = require('express')
 const Morgan = require('morgan')
 const Faker = require('faker')
